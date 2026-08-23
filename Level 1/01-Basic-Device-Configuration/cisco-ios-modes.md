@@ -10,6 +10,7 @@ Cisco IOS devices use different command modes depending on the task being perfor
 - **Purpose**: Used for detailed status verification, system configuration backups, and troubleshooting.
 - **Capabilities**: Access to all `show` commands (e.g., `show running-config`), rebooting the device, and navigating to higher configuration modes.
 - **Command to Enter**: `enable`
+- **Command to go back to User ExEC mode**: `disable`
 
 ### 3. Global Configuration Mode (`Switch(config)#`)
 - **Purpose**: Used to make global changes that affect the entire device operation.
